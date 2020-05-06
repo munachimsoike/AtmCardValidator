@@ -61,7 +61,7 @@ def validate(ccn):
         # converting ccn to string
         x = ccn
         listToStr = ' '.join(map(str, x)) 
-        print("Your Credit card number is: " + listToStr)
+        print("Your Credit card number is: " + listToStr[::-1])
         break
     else:
         credit_card()
